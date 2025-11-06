@@ -1,0 +1,32 @@
+{
+  "train_path": "train.csv",
+  "test_path": "test.csv",
+  "lookback": 50,
+  "forecast_horizon": 1,
+  "val_split": 0.2,
+  "include_lagged": true,
+  "include_rolling": true,
+  "model_type": "simple",
+  "d_model": 256,
+  "nhead": 8,
+  "num_layers": 3,
+  "dim_feedforward": 1024,
+  "dropout": 0.1,
+  "batch_size": 64,
+  "num_epochs": 100,
+  "learning_rate": 0.0001,
+  "weight_decay": 1e-05,
+  "scheduler": "cosine",
+  "early_stopping_patience": 15,
+  "seed": 42,
+  "device": "cuda",
+  "checkpoint_dir": "checkpoints",
+  "experiment_name": "itransformer",
+  "val_metrics": {
+    "loss": 0.0012798077638892988,
+    "mse": 0.0012798077638892988,
+    "mae": 0.01299706008285284,
+    "rmse": 0.03581330552697182
+  },
+  "num_parameters": 16179713
+}

@@ -1,4 +1,4 @@
-# Modeling Market Excess Returns with iTransformer-Based Multivariate Time Series Learningction
+# Modeling Market Excess Returns with iTransformer-Based Multivariate Time Series Learning
 
 This project applies **iTransformer** (Inverted Transformer) architecture to predict market forward excess returns for the Hull Tactical Market Prediction competition on Kaggle.
 

@@ -2,6 +2,22 @@
 
 This project applies **iTransformer** (Inverted Transformer) architecture to predict market forward excess returns for the Hull Tactical Market Prediction competition on Kaggle.
 
+## 📄 Documentation
+
+- **[Homework Report](Homework.pdf)** - Detailed project report and analysis
+- **[Presentation Slides](PPT.pdf)** - Project presentation and key findings
+
+## 🏛️ Architecture Overview
+
+![iTransformer Architecture](figures/image%20copy.png)
+
+The diagram above illustrates the core components of the Transformer architecture used in this project:
+- **Input Embedding**: Converting raw time series into embedded representations
+- **Time Encoding**: Adding positional information with sinusoidal encoding
+- **Multi-Head Attention**: Capturing complex relationships between variables
+- **Feed Forward Networks**: Learning non-linear transformations
+- **Add & Norm**: Residual connections with layer normalization
+
 ## 📋 Project Overview
 
 **Course**: INFO 212 - Data Science Programming I  
@@ -124,7 +140,7 @@ The comparison demonstrates:
 - **Better generalization**: Highest R² score among all models
 - **Effective architecture**: Outperforms both traditional ML and deep learning baselines
 
-**See [MODEL_COMPARISON.md](MODEL_COMPARISON.md) for detailed explanation.**
+
 
 ## 📊 Data Description
 

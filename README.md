@@ -1,4 +1,4 @@
-# Modeling Market Excess Returns with iTransformer-Based Multivariate Time Series Learning
+# TCiT: A Weighted Fusion of iTransformer and TimeCMA for Robust Multivariate Market Forecasting
 
 🌐 **Live Demo**: [TCiT.Finance - Predicting Market Alpha](https://yuanlj12345.github.io/)
 
@@ -158,7 +158,7 @@ This will compare iTransformer with:
 
 iTransformer significantly outperforms baseline models across all metrics:
 
-![Model Comparison](figures/model_comparison_all_metrics.png)
+![Model Comparison](figures/table4_model_comparison.png)
 
 The comparison demonstrates:
 - **Superior accuracy**: Lower MSE and MAE compared to all baselines
